@@ -11,7 +11,7 @@
     [com.fulcrologic.rad.database-adapters.datomic-options :as do]
     [com.fulcrologic.rad.ids :refer [new-uuid select-keys-in-ns]]
     [com.fulcrologic.rad.type-support.decimal :as math]
-    [com.wsscode.pathom.core :as p]
+    [com.wsscode.pathom.core :as-alias p] ; Pathom 2
     [edn-query-language.core :as eql]
     [taoensso.timbre :as log]
     [taoensso.encore :as enc]))
